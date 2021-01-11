@@ -16,7 +16,12 @@ body{
     margin-bottom: 1rem;
     background-image: url('images/background.jpg');
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
+    background-position: center center;
+}
+
+body img{
+    
 }
 
 .container{
