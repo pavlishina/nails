@@ -6,7 +6,7 @@
 
 body{
     font-family: 'Pacifico',sans-serif;
-    color:#772B54;
+    color:black;
     margin: 0;
     min-height: 100vh;
     display: flex;
@@ -14,15 +14,11 @@ body{
     margin-top: 1rem;
     width:100%;
     margin-bottom: 1rem;
-    background-image: url('images/background.jpg');
+    background-image: url('images/background.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-}
-
-body img{
-    
 }
 
 .container{
@@ -54,7 +50,9 @@ body img{
 }
 
 
-.btn-grad {background-image: linear-gradient(to right, #DD5E89 0%, #F7BB97  51%, #DD5E89  100%)}
+
+
+.btn-grad {background-image: linear-gradient(to right, #1D976C 0%, #93F9B9  51%, #1D976C  100%)}
 .btn-grad {
    margin: 10px;
    padding: 15px 45px;
